@@ -9,9 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <main className="mx-3">
         <Outlet />
-      </main>
       <Footer/>
     </div>
   );

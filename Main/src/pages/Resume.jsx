@@ -1,10 +1,32 @@
-import React from "react";
+import { Container, Row } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
-export default function Resume() {
+import Card from 'react-bootstrap/Card';
+
+// Brings in the resume page with a download button for the resume
+export default function Contact() {
+
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold text-center my-8">Welcome to my Portfolio</h1>
-        <p className="text-lg text-center">This is a simple portfolio site built with React.</p>
-    </div>
+    <Container>
+      <Row>
+        <div>
+          <h1>Resume</h1>
+
+          <Card>
+
+            <Card.Body>
+              <Card.Title>Professional History</Card.Title>
+              <Card.Text>
+                You can check out my prior work and experience here:
+              </Card.Text>
+              <Button className="m-1 p-1" variant="secondary"><a className="text-white" href="/assets/resume.pdf" download>Download Resume</a></Button>
+            </Card.Body>
+          </Card>
+
+
+        </div>
+      </Row>
+    </Container>
+
   );
 }

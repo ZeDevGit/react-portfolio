@@ -1,17 +1,23 @@
 import React from 'react';
-
-const Footer = () => {
-  return (
-    <div className='w-full mt-24 bg-slate-900 text-gray-300 py-8 px-2'>
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
-        <div className='flex flex-col max-w-[1024px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500'>
-            <p>does it work?</p>
-        </div>
+const Footer = () => (
+
+<Card className='footer'>
+  <Card.Body>
+    <Button className="m-1 p-1"  variant="secondary"><a className="text-white" target="_blank"  href="https://github.com/ZeDevGit">GitHub</a></Button>
+    <Button className="m-1 p-1" variant="secondary"><a className="text-white" target="_blank"  href="">LinkedIn</a></Button>
+    <Button  className="m-1 p-1" variant="secondary"><a className="text-white"  target="_blank" href="">Medium</a></Button>
+  </Card.Body>
+</Card>
+
+      
+    );
+
+  
+ 
 
 
-    </div>
-  )
-}
-
-export default Footer
+export default Footer;

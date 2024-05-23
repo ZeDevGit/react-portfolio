@@ -64,6 +64,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - Error page for when there's a routing error on the site
 
 ## Mock-Up
+![demo](https://github.com/ZeDevGit/react-portfolio/assets/42353819/7a77ca10-0ee8-4135-8194-212b5138afd2)
 
 
 ## Credits

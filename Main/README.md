@@ -1,5 +1,5 @@
 # React-Portfolio
-
+A React Website to act as a portfolio page
 
 ## Table of Contents
 - [Description](#description)
@@ -19,7 +19,7 @@
 - [Questions](#questions)
 
 ## Description 
-
+A website to act as both a demonstration and functional page to show off my projects and other work.
 
 ## User Story
 ```md
@@ -57,7 +57,11 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 ## Features
-
+- About me page for brief description
+- Portfolio page to show off previous projects
+- Contact form for users wanting to inquire on more information
+- Resume page for easiest access to current resume through download link
+- Error page for when there's a routing error on the site
 
 ## Mock-Up
 
